@@ -1,0 +1,5 @@
+spring:
+  data:
+    mongodb:
+      uri: 'mongodb+srv://database_geo:database_geo@omnistack-otzbv.mongodb.net/geo?retryWrites=true&w=majority'
+      database: 'geo'
