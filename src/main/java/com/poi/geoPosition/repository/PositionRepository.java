@@ -55,8 +55,8 @@ public class PositionRepository {
          Double lat =  coordinates.get(1);
          Double log =  coordinates.get(0);
          Point refPoint = new Point(new Position(lat, log));
-          return      this.collection.find(Filters.geoWithinCenter("location", log, lat, r));
-       //  return this.collection.find(Filters.near("location", refPoint, r, 0.0));
+         return  this.collection.find(Filters.geoWithinCenter("location", log, lat, r));
+
     }
 
 
